@@ -1,0 +1,169 @@
+{
+  "id": "theme-crimson",
+  "name": "Theme crimson",
+  "version": "1.0.0",
+  "apiVersion": 26,
+  "entry": "plugin.js",
+  "description": "A sample app theme that paints surfaces: gloss buttons, gradient rings, glows, a framed hero, a floating rail and a background picture",
+  "author": "kinotvapp",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "crimson",
+      "name": {
+        "es": "Carmesí",
+        "en": "Crimson"
+      },
+      "colors": {
+        "accent": "#E50914",
+        "onAccent": "#FFFFFF",
+        "background": "#0B0608",
+        "surface": "#1A0F12",
+        "surfaceHigh": "#26161A",
+        "railPanel": "#140A0D"
+      },
+      "shape": {
+        "cardRadius": 16,
+        "buttonRadius": 14,
+        "heroRadius": 24,
+        "railItemRadius": 16
+      },
+      "background": {
+        "image": {
+          "asset": "background",
+          "fit": "cover",
+          "dim": 0.35
+        }
+      },
+      "style": {
+        "gloss": 0.5
+      },
+      "layout": {
+        "hero": "framed",
+        "rail": "floating"
+      },
+      "surfaces": {
+        "button": {
+          "stroke": {
+            "width": 1,
+            "color": "#FF6B73"
+          }
+        },
+        "buttonGhost": {
+          "fill": {
+            "type": "solid",
+            "color": "#2A1A1D"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#5A2A30"
+          }
+        },
+        "navActive": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#E01822",
+              "#A0050E"
+            ],
+            "angle": 180
+          },
+          "glow": {
+            "color": "#E50914",
+            "radius": 12,
+            "alpha": 0.5
+          }
+        },
+        "rail": {
+          "fill": {
+            "type": "solid",
+            "color": "#140A0D"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#3A1F24"
+          }
+        },
+        "iconButton": {
+          "fill": {
+            "type": "solid",
+            "color": "#2A1A1D"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#5A2A30"
+          }
+        },
+        "cardFocus": {
+          "stroke": {
+            "width": 3,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#FF6B73",
+                "#E50914"
+              ],
+              "angle": 135
+            }
+          },
+          "glow": {
+            "color": "#E50914",
+            "radius": 14,
+            "alpha": 0.6
+          }
+        },
+        "focus": {
+          "stroke": {
+            "width": 3,
+            "color": "#FFFFFF"
+          },
+          "glow": {
+            "color": "#E50914",
+            "radius": 10,
+            "alpha": 0.5
+          }
+        },
+        "hero": {
+          "stroke": {
+            "width": 1,
+            "color": "#3A1F24"
+          }
+        },
+        "progress": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#FF6B73",
+              "#E50914"
+            ],
+            "angle": 0
+          }
+        }
+      },
+      "assets": [
+        {
+          "id": "background",
+          "path": "assets/background.webp",
+          "sha256": "0ed54aa709908d0814dee1fed00898b5435bdf4939b4f57e632e8236bc824508",
+          "bytes": 8276
+        }
+      ],
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#E50914",
+            "#FF6D00",
+            "#00B8D4"
+          ]
+        }
+      }
+    }
+  ],
+  "signature": {
+    "authorKey": "82b87b938e0a95b142467c815a8823cb54310a13a828c3c4c77b1eda43294ae6",
+    "value": "12bb33d0cd61dc66ac350cf839138a545eb8f01c3267b80c093c351522ccb74da41cfe5957a0b07a53e23f22d44af7345eee05907b2659373e57de4262577a07"
+  }
+}
