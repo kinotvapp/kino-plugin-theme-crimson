@@ -1,7 +1,7 @@
 {
   "id": "theme-crimson",
   "name": "Theme crimson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": 26,
   "entry": "plugin.js",
   "description": "A sample app theme that paints surfaces: gloss buttons, gradient rings, glows, a framed hero, a floating rail and a background picture",
@@ -47,59 +47,46 @@
       },
       "surfaces": {
         "button": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#D9232F",
+              "#A8060F"
+            ],
+            "angle": 180
+          },
           "stroke": {
             "width": 1,
-            "color": "#FF6B73"
+            "color": "#FF7B83"
           }
         },
         "buttonGhost": {
           "fill": {
             "type": "solid",
-            "color": "#2A1A1D"
+            "color": "#1E1418"
           },
           "stroke": {
             "width": 1,
-            "color": "#5A2A30"
-          }
-        },
-        "navActive": {
-          "fill": {
-            "type": "gradient",
-            "colors": [
-              "#E01822",
-              "#A0050E"
-            ],
-            "angle": 180
-          },
-          "glow": {
-            "color": "#E50914",
-            "radius": 12,
-            "alpha": 0.5
-          }
-        },
-        "rail": {
-          "fill": {
-            "type": "solid",
-            "color": "#140A0D"
-          },
-          "stroke": {
-            "width": 1,
-            "color": "#3A1F24"
+            "color": "#3A2328"
           }
         },
         "iconButton": {
           "fill": {
             "type": "solid",
-            "color": "#2A1A1D"
+            "color": "#1E1418"
           },
           "stroke": {
             "width": 1,
-            "color": "#5A2A30"
+            "color": "#3A2328"
           }
         },
-        "cardFocus": {
+        "navActive": {
+          "fill": {
+            "type": "solid",
+            "color": "#2A0D12"
+          },
           "stroke": {
-            "width": 3,
+            "width": 1.5,
             "gradient": {
               "type": "gradient",
               "colors": [
@@ -111,19 +98,40 @@
           },
           "glow": {
             "color": "#E50914",
+            "radius": 10,
+            "alpha": 0.55
+          }
+        },
+        "rail": {
+          "fill": {
+            "type": "solid",
+            "color": "#120A0D"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#4A1A22"
+          }
+        },
+        "cardFocus": {
+          "stroke": {
+            "width": 2,
+            "color": "#F2E8EA"
+          },
+          "glow": {
+            "color": "#E50914",
             "radius": 14,
-            "alpha": 0.6
+            "alpha": 0.45
           }
         },
         "focus": {
           "stroke": {
-            "width": 3,
-            "color": "#FFFFFF"
+            "width": 2,
+            "color": "#F2E8EA"
           },
           "glow": {
             "color": "#E50914",
             "radius": 10,
-            "alpha": 0.5
+            "alpha": 0.45
           }
         },
         "hero": {
