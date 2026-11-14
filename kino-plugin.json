@@ -161,9 +161,5 @@
         }
       }
     }
-  ],
-  "signature": {
-    "authorKey": "82b87b938e0a95b142467c815a8823cb54310a13a828c3c4c77b1eda43294ae6",
-    "value": "12bb33d0cd61dc66ac350cf839138a545eb8f01c3267b80c093c351522ccb74da41cfe5957a0b07a53e23f22d44af7345eee05907b2659373e57de4262577a07"
-  }
+  ]
 }
