@@ -1,7 +1,7 @@
 {
   "id": "theme-crimson",
-  "name": "Theme crimson",
-  "version": "1.0.1",
+  "name": "Crimson",
+  "version": "1.0.2",
   "apiVersion": 26,
   "entry": "plugin.js",
   "description": "A sample app theme that paints surfaces: gloss buttons, gradient rings, glows, a framed hero, a floating rail and a background picture",
@@ -14,7 +14,7 @@
     {
       "id": "crimson",
       "name": {
-        "es": "Carmesí",
+        "es": "Crimson",
         "en": "Crimson"
       },
       "colors": {
